@@ -1,20 +1,23 @@
 import React from 'react';
-import Jumbotron from 'react-bootstrap/Jumbotron'
 import './App.css';
+import { Container, Header, Divider, Icon } from 'semantic-ui-react'
 
-function App() {
-  return (
-    <div className="App">
-      <Jumbotron>
-        <h1>Welcome!</h1>
-        <p>
-          <span role="img" aria-label="construction">🚧 </span> 
-          Currently under construction...
-          <span role="img" aria-label="construction"> 🚧</span> 
-        </p>
-      </Jumbotron>
-    </div>
-  );
-}
+const App = () => (
+  <div className="App">
+    <Container text textAlign='center'>
+      <Header as='h1' icon textAlign='center' color='blue'>
+        <Icon name='terminal' circular/>
+        <Header.Content>Luke Hickin</Header.Content>
+      </Header>
+      <Divider />
+      <p>Hi, I'm Luke. 👋</p>
+      <p>I live in Auckland, New Zealand. 🇳🇿</p>
+      <p>I'm a software engineer currently working at Xero. 💻</p>
+      <p>I love doing dev, and I love doing ops, but it's even better when I can do both. 🤓</p>
+      <Divider />
+      <p></p>
+    </Container>
+  </div>
+);
 
 export default App;
