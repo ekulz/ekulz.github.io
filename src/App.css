@@ -1,3 +1,11 @@
 body {
   background-color: whitesmoke;
 }
+
+.segmentHeader {
+  margin-bottom: 0px !important;
+}
+
+.dividerHeader {
+  margin-top: 0px !important;
+}
