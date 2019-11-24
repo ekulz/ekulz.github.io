@@ -24,25 +24,24 @@ const App = () => {
         <Segment basic size='large' textAlign='center'>
           <p>
             Hi, I'm <b>Luke</b>. 
-            <span role="img" aria-label="wave">👋</span>
+            <span role="img" aria-label="wave"> 👋</span>
           </p>
           <p>
             I live in Auckland, New Zealand. 
-            <span role="img" aria-label="flag-nz">🇳🇿</span>
+            <span role="img" aria-label="flag-nz"> 🇳🇿</span>
           </p>
           <p>
-            I'm a software engineer currently working at <b>Xero</b>. 
-            <span role="img" aria-label="laptop">💻</span>
+            I'm a software engineer currently working at <b><a href='https://www.xero.com/'>Xero</a></b>. 
           </p>
           <p>
-            I love doing dev, I love doing ops, but it's even better when I can do both. 
-            <span role="img" aria-label="nerd-face">🤓</span></p>
-          <div>
-            In my spare time, you'll find me hanging out with my friends, gaming, or playing soccer.<br></br>
-            I'm a keen snowboarder in the winter, and to keep fit I've started learning kickboxing.<br></br>
-            I also <b>love</b> cars. Like, a lot. My current daily is a BMW E90 330i. 
-            <span role="img" aria-label="heart-eyes">😍</span>
-          </div>
+            I love <b>dev</b>, and I also love <b>ops</b> - but it's even better when I can do <b>both</b>. 
+          </p>
+          <p>
+            In my spare time you'll find me hanging out with my friends, gaming, or playing soccer.
+            I'm a keen snowboarder in the winter, and to keep fit, I've started learning kickboxing.
+            I also <b>love</b> cars. Like, a lot. My current daily is a BMW E90 330i.
+            <span role="img" aria-label="heart-eyes"> 😍</span>
+          </p>
         </Segment>
 
         <Divider />
