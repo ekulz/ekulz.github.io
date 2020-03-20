@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Container, Header, Divider, Icon, Segment, Button } from 'semantic-ui-react'
+import { Container, Header, Divider, Icon, Segment, Button, Image } from 'semantic-ui-react'
 
 const App = () => {
   
@@ -14,29 +14,29 @@ const App = () => {
 
         <Segment basic className='segmentHeader' size='huge'>
           <Header as='h1' icon textAlign='center' color='blue'>
-            <Icon name='terminal' circular/>
+            <Image circular src='me.jpg' style={{'font-size':50}}/>
             <Header.Content>Luke Hickin</Header.Content>
           </Header>
         </Segment>
 
         <Divider className='dividerHeader'/>
 
-        <Segment basic size='large' textAlign='center'>
+        <Segment basic size='large' textAlign='left'>
           <p>
             Hi, I'm <b>Luke</b>. 
             <span role="img" aria-label="wave"> 👋</span>
           </p>
           <p>
             I recently moved to Vancouver BC, Canada!
-            <span role="img" aria-label="flag-nz"> 🇳🇿</span>
+            <span role="img" aria-label="flag-ca"> 🇨🇦</span>
           </p>
           <p>
-            I'm a Software Engineer currently looking for opportunities in the area. 
-            If are looking for devs, please <a href={"mailto:lukehickin@hotmail.com"}>contact me!</a>
-          </p>
-          <p>
-            I looooove <b>software development</b>, but I have a passion for <b>DevOps</b>. 
+            I looooove <b>building software</b>, but I have a passion for <b>ops</b>. 
             My ideal role is one where I can do both <span role="img" aria-label="blush">😊</span>
+          </p>
+          <p>
+            I'm currently looking for opportunities in the area. 
+            If are looking for Engineers, please don't hesistate to <a href={"mailto:lukehickin@hotmail.com"}>contact me!</a>
           </p>
         </Segment>
 
