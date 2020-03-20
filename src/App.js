@@ -27,20 +27,16 @@ const App = () => {
             <span role="img" aria-label="wave"> 👋</span>
           </p>
           <p>
-            I live in Auckland, New Zealand. 
+            I recently moved to Vancouver BC, Canada!
             <span role="img" aria-label="flag-nz"> 🇳🇿</span>
           </p>
           <p>
-            I'm a software engineer currently working at <b><a href='https://www.xero.com/'>Xero</a></b>. 
+            I'm a Software Engineer currently looking for opportunities in the area. 
+            If are looking for devs, please <a href={"mailto:lukehickin@hotmail.com"}>contact me!</a>
           </p>
           <p>
-            I love <b>dev</b>, and I also love <b>ops</b> - but it's even better when I can do <b>both</b>. 
-          </p>
-          <p>
-            In my spare time you'll find me hanging out with my friends, gaming, or playing soccer.
-            I'm a keen snowboarder in the winter, and to keep fit, I've started learning kickboxing.
-            I also <b>love</b> cars. Like, a lot. My current daily is a BMW E90 330i.
-            <span role="img" aria-label="heart-eyes"> 😍</span>
+            I looooove <b>software development</b>, but I have a passion for <b>DevOps</b>. 
+            My ideal role is one where I can do both <span role="img" aria-label="blush">😊</span>
           </p>
         </Segment>
 
