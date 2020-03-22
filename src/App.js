@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Container, Header, Divider, Icon, Segment, Button, Image } from 'semantic-ui-react'
+import MenuBar from './components/MenuBar'
 
 const App = () => {
   
@@ -10,11 +11,12 @@ const App = () => {
 
   return (
     <div className="App">
+      <MenuBar />
       <Container text textAlign='center'>
 
         <Segment basic className='segmentHeader' size='huge'>
           <Header as='h1' icon textAlign='center' color='blue'>
-            <Image circular src='me.jpg' style={{'font-size':50}}/>
+            <Image circular src='me.jpg' style={{'fontSize':50}}/>
             <Header.Content>Luke Hickin</Header.Content>
           </Header>
         </Segment>
