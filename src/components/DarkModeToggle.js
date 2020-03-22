@@ -11,7 +11,7 @@ const DarkModeToggle = () => {
         checked={darkMode.value} 
         onChange={darkMode.toggle} 
         icons={
-          {checked: <span role="img" aria-label="day" style={{'padding-top':'2px'}}>🌙</span>,
+          {checked: <span role="img" aria-label="day">🌙</span>,
           unchecked: <span role="img" aria-label="night">☀️</span>}}/>
     </div>
   );
