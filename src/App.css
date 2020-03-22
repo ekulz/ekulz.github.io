@@ -26,6 +26,10 @@ body.dark-mode {
   color: #999 !important;
 }
 
+.dark-mode .ui.header .sub.header {
+  color: inherit;
+}
+
 .segmentHeader {
   margin-bottom: 0px !important;
 }

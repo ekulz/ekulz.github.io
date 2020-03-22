@@ -6,13 +6,14 @@ const Home = () => {
   const handleClick = (link) => {
     window.open(link, '_blank');
   };
-  
+
   return (
     <Container text textAlign='center'>
       <Segment basic className='segmentHeader' size='huge'>
         <Header as='h1' icon textAlign='center' color='blue'>
           <Image circular src='me.jpg' style={{'fontSize':50}}/>
           <Header.Content>Luke Hickin</Header.Content>
+          <Header.Subheader>Full Stack Software Engineer</Header.Subheader>
         </Header>
       </Segment>
 
@@ -28,12 +29,12 @@ const Home = () => {
           <span role="img" aria-label="flag-ca"> 🇨🇦</span>
         </p>
         <p>
-          I looooove <b>building software</b>, but I have a passion for <b>ops</b>. 
+          I looooove <b>building software</b>, and I have a passion for <b>ops</b>. 
           My ideal role is one where I can do both <span role="img" aria-label="blush">😊</span>
         </p>
         <p>
           I'm currently looking for opportunities in the area. 
-          If are looking for Engineers, please don't hesistate to <a href={"mailto:lukehickin@hotmail.com"}>contact me!</a>
+          If you are looking for an Engineer, please don't hesistate to <a href={"mailto:lukehickin@hotmail.com"}>contact me!</a>
         </p>
       </Segment>
 
