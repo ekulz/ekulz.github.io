@@ -11,8 +11,8 @@ const Home = () => {
     <Container text textAlign='center'>
       <Segment basic className='segmentHeader' size='huge'>
         <Header as='h1' icon textAlign='center' color='blue'>
-          <Image circular src='me.jpg' style={{'fontSize':50}}/>
-          <Header.Content>Luke Hickin</Header.Content>
+          <Image circular src='me.jpg' style={{'fontSize':150}}/>
+          <Header.Content style={{'padding-top':'15px', 'padding-bottom':'5px'}}>Luke Hickin</Header.Content>
           <Header.Subheader>Full Stack Software Engineer</Header.Subheader>
         </Header>
       </Segment>
