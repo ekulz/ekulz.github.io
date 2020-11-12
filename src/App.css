@@ -30,6 +30,10 @@ body.dark-mode {
   color: inherit;
 }
 
+.ui.menu {
+  border-bottom: 0 none !important;
+}
+
 .segmentHeader {
   margin-bottom: 0px !important;
 }
