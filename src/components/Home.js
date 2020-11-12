@@ -25,16 +25,14 @@ const Home = () => {
           <span role="img" aria-label="wave"> 👋</span>
         </p>
         <p>
-          I recently moved to Vancouver BC, Canada!
-          <span role="img" aria-label="flag-ca"> 🇨🇦</span>
+          Just another kiwi living in Vancouver BC, Canada.
+          <span role="img" aria-label="flag-nz"> 🇳🇿 </span>
+          <span role="img" aria-label="flag-ca"> 🇨🇦 </span>
         </p>
         <p>
-          I looooove <b>building software</b>, and I have a passion for <b>ops</b>. 
-          My ideal role is one where I can do both <span role="img" aria-label="blush">😊</span>
-        </p>
-        <p>
-          I'm currently looking for opportunities in the area. 
-          If you are looking for an Engineer, please don't hesistate to <a href={"mailto:lukehickin@hotmail.com"}>contact me!</a>
+          I'm a <b>full stack web dev</b> comfortable in .NET, Ruby on Rails, ReactJS, VueJS, and AngularJS. 
+          <br></br>
+          I also have a <b>passion for ops</b>, with extensive experience in AWS. 
         </p>
       </Segment>
 
@@ -43,14 +41,17 @@ const Home = () => {
       <Segment basic size='large'>
         <p>Get in touch, I'd love to connect with you:</p>
         <div>
-          <Button color='black' onClick={() => handleClick('https://github.com/ekulz')}>
-            <Icon name='github' /> Github
+          <Button color='vk'>
+            <a style={{color:'inherit'}} href={"mailto:lukehickin@hotmail.com"}><Icon name='mail' /> Email</a>
           </Button>
           <Button color='linkedin' onClick={() => handleClick('https://www.linkedin.com/in/lhickin/')}>
             <Icon name='linkedin' /> LinkedIn
           </Button>
           <Button color='twitter' onClick={() => handleClick('https://twitter.com/lukeee_h')}>
             <Icon name='twitter' /> Twitter
+          </Button>
+          <Button color='black' onClick={() => handleClick('https://github.com/ekulz')}>
+            <Icon name='github' /> Github
           </Button>
         </div>
       </Segment>
